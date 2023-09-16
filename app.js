@@ -98,7 +98,7 @@ const youWin = () => {
     modalCardSection.classList.add("show")
 
     if (yourScoreSpan.textContent === "10") {
-    finalMessagePar.textContent = "👏Kazandın👏"
+    finalMessagePar.textContent = "👏Kazandin👏"
     document.querySelector(".modal").style.backgroundColor = GREEN
     playAgainBtn.style.color = GREEN
  } else {
